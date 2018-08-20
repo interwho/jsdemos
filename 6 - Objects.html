@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Objects</title>
+    <link href="assets/6.css" rel="stylesheet" />
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col />
+            <col />
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="padding:50px;">
+                  <h3>Input some text:</h3>
+                  <input name="sampleinput" id="textinput" value="sometext"/>
+                </td>
+                <td style="padding:50px;">
+                    <h3>In JavaScript:</h3>
+                    <pre style="text-align:left;">
+                        var textinput = document.getElementById('textinput');
+
+
+                        console.log("Contents of textinput: " + textinput.value);
+                        console.log("Size of textinput: " + textinput.size);
+                        console.log("Type of textinput: " + textinput.type);
+                        console.log("Name of textinput: " + textinput.name);
+
+
+                        >> Contents of textinput: <span id="textinputbox">sometext</span>
+                        >> Size of textinput: 20
+                        >> Type of textinput: text
+                        >> Name of textinput: sampleinput
+                    </pre>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="assets/6.js" type="text/javascript"></script>
+</body>
+</html>

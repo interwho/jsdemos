@@ -1,0 +1,39 @@
+﻿body, table, thead, tbody, th, td, form, button {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+col {
+    width: 55px;
+}
+
+table {
+    margin: 20px;
+    padding: 10px;
+    /*height: 350px;*/
+    border-spacing: 0;
+    border-radius: 5px;
+}
+
+td {
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    font-size: 24px;
+    text-align: center;
+    color: #1f1f1f;
+    vertical-align: middle;
+    line-height: 0;
+    background-color: #00BC8A;
+    border-radius: 50px;
+}

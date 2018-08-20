@@ -1,0 +1,50 @@
+﻿body, table, thead, tbody, th, td, form, button {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+col {
+    width: 55px;
+}
+
+table {
+    margin: 20px;
+    padding: 10px;
+    /*height: 350px;*/
+    border-spacing: 0;
+    border-radius: 5px;
+}
+
+td {
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#traffic-light {
+  height: 550px;
+  width: 200px;
+  float: left;
+  background-color: #333;
+  border-radius: 40px;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.bulb {
+  height: 150px;
+  width: 150px;
+  background-color: #111;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+}

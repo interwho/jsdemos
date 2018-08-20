@@ -1,0 +1,31 @@
+﻿body, table, thead, tbody, th, td, form, button {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+col {
+    width: 55px;
+}
+
+table {
+    margin: 20px;
+    padding: 10px;
+    /*height: 350px;*/
+    border-spacing: 0;
+    border-radius: 5px;
+}
+
+td {
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+body {
+  font-family: sans-serif;
+}
